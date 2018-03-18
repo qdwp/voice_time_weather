@@ -81,7 +81,7 @@ def get_todays_weather():
             current_data = _result['results'][0]['index']
             weather_data = _result['results'][0]['weather_data']
 
-            data_string = "叮咚，实时天气信息。{0}。{1}。{2{3}".format(
+            data_string = "叮咚，实时天气信息。{0}。{1}。{2}{3}".format(
                     "{0}".format(current_city.encode('utf-8')),
                     "{0}。{1}。{2}。{3}".format(
                         weather_data[0]['date'].encode('utf-8'),
