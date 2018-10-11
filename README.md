@@ -5,7 +5,7 @@
 ```
 sudo apt-get install sox
 # 或
-brew installl sox
+brew install sox
 ```
 
 > python2.7.14环境
@@ -13,5 +13,6 @@ brew installl sox
 ```
 pip install requests
 pip install voicetools
+pip install schedule
 
 ```
